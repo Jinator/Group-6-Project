@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <!--Title of form-->
+    <head>
+        <title>Log In to the University of North Texas System</title>
+        <link href="./login.css" rel="stylesheet">
+    </head>
+
+    <!--Body of form-->
+    <body>
+        <h1>Log In to the University of North Texas System</h1>
+        <form>
+            <!--Entering email-->
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" name="email" id="email" required pattern="[a-zA-Z0-9]+\@((unt.edu)|(my.unt.edu))$">
+            <br>
+
+            <!--Entering password-->
+            <label for="user-pw">Password:</label>
+            <br>
+            <input type="password" id="user-pw" name="user-pw" required>
+            <br>
+
+            <!--Forgot password-->
+            <!--linked to resetting password page-->
+            <a href="https://ams.untsystem.edu/what_is_my_password/" target="_blank">Forgot password?</a>
+
+            <!--Submit-->
+            <!--link this to review page-->
+            <br>
+            <input type="submit" value="Log In">
+        </form>
+    </body>
+
+    <!--Footer with UNT logo-->
+    <footer>
+        <img 
+            src="https://i.pinimg.com/originals/08/c7/d9/08c7d98182ffc29100364e0e03ef4f8f.png"
+            alt="University of North Texas Logo"
+            width="160"
+            height="120"
+        />
+        <br>
+        <!--Add link to review homepage, unt dining page-->
+        <a href="https://dining.unt.edu/" target="_blank">UNT Dining</a>
+    </footer>
+</html>

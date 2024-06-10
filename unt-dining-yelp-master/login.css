@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana;
+    text-align: center;
+}
+
+h1{
+    color: #00853E;
+    font-size: 40px;
+}
+
+input{
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+[href]{
+    color: blue;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+a:visited{
+    color: purple;
+}
+  
+  
